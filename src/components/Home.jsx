@@ -6,21 +6,21 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-secondary">
       {/* Container */}
-      <div className="max-w-[1000px] px-10 flex flex-col justify-center h-full">
+      <div className="max-w-full px-11 flex flex-col justify-center h-full ">
         {/* Flex Container for Text and Image */}
         <div className="flex flex-col sm:flex-row items-center">
           {/* Image */}
           <img
             src={PP}
             alt="My Image"
-            className="sm:max-w-[300px] mb-10 rounded-full sm:mr-10 sm:order-1"
+            className="w-full sm:max-w-[1000px] sm:mt-20 mt-[100px] mb-10 sm:mb-0 rounded-full sm:mr-10 sm:order-1 lg:max-w-[500px] xl:max-w-[600px] sm:ml-auto"
           />
           {/* Text */}
-          <div className="text-center sm:text-left">
-            <h1 className="text-4xl xl:text-7xl text-primaryTextColor font-bold">
+          <div className="text-center sm:text-left sm:ml-auto sm:mt-20">
+            <h1 className="text-4xl xl:text-7xl sm:mb-2 text-primaryTextColor font-bold">
               Adefela Fakorode
             </h1>
-            <h2 className="text-2xl xl:text-5xl text-primaryTextColor font-bold">
+            <h2 className="text-2xl xl:text-5xl sm:mb-2 text-primaryTextColor font-bold">
               Full-Stack Developer
             </h2>
             {/* Intro */}

@@ -28,11 +28,6 @@ const NavBar = () => {
         <li className="py-6 text-4xl text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">Project</li>
         <li className="py-6 text-4xl text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">Contact</li>
       </ul>
-
-      {/* Icons */}
-      <div className="hidden">
-        {/* Your icons or icon component goes here */}
-      </div>
     </div>
   );
 }

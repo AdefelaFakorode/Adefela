@@ -1,8 +1,11 @@
-# React + Vite
+<p align="center">
+  <img src="https://img.icons8.com/color/48/000000/magritte.png"/>
+</p>
+<h1 align="center">
+  adefela.com - v1
+</h1>
+<p align="center">
+  The first iteration of <a href="https://gazijarin.com" target="_blank">gazijarin.com</a> was built with React.js leveraging Tailwind.CSS.
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="![Adefela](https://github.com/AdefelaFakorode/Adefela/assets/102834064/31a25de2-2b5f-4e61-b0dc-55818e003293)">

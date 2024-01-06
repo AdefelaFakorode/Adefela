@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/AdefelaFakorode/Adefela/assets/102834064/0514118d-ee25-4f82-a88e-6230bef6eeba"/>
+  <img src="https://img.icons8.com/color/48/000000/magritte.png"/>
 
 </p>
 <h1 align="center">

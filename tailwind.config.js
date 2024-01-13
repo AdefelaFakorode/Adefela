@@ -6,6 +6,12 @@ export default {
       spacing: {
         'custom': 'var(--custom-spacing)',
       },
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "960px",
+        xl: "1200px",
+      },
       colors: {
         'primaryTextColor': '#D764FF',
         'bColor': '#3D0053',

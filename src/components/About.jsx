@@ -1,26 +1,23 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 import BBP1 from "../assets/BBP1.jpg";
 import BBP2 from "../assets/BBP2.jpg";
 
 const About = () => {
   return (
     <div name="about" className=" w-full h-screen  bg-primary">
-      <div className="my-36">
+      <div className="my-[135px] xl:my-[210px] md:my-[240px] ">
         <div className="xl:flex md:flex xl:flex-row-reverse md:flex-row-reverse justify-center">
           
           
-          
-          
-          
-          
+                   
           {/*About-text*/}
-          <div className="text n card xl:ml-[55px] xl:my-[90px] md:ml-[55px] md:my-[90px]">
+          <div className="xl:ml-[55px] xl:my-[90px] md:ml-[55px] md:my-[90px]">
             <div className="flex justify-center  text-primaryTextColor font-bold text-[50px] mb-6">
               <h1>About Me</h1>
             </div>
 
             {/*Card*/}
-            <div className="flex justify-center">
+            <div className="flex justify-center xl:mr-[42px]">
             <div className="w-[410px] h-[250px] xl:w-[600px] xl:h-[250px] md:w-[600px] md:h-[250px] rounded-[40px] xl:rounded-[40px] bg-secondary flex items-center">
                 <p className="my-8 text-white  text-center">
                   Currently, I'm an undergraduate student-athlete at the College
@@ -36,8 +33,8 @@ const About = () => {
 
 
 
-          {/*Images*/}\
-          <div className="flex-auto">
+          {/*Images*/}
+          <div className="flex-auto center">
             <div className="flex justify-center mt-10 space-x-6">
               <div>
                 <img 

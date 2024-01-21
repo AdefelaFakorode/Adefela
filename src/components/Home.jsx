@@ -1,5 +1,13 @@
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiTypescript } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiTailwindcss } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
 import PP from "../assets/PP.jpg";
 
 const Home = () => {
@@ -25,11 +33,11 @@ const Home = () => {
             </h2>
             {/* Intro */}
             <p className="text-2xl xl:text-2xl text-mainTextColor sm:text-left">
-              Hello, I’m Adefela Fakorode.
-              A passionate <br /> Full-Stack Developer
-              based in New York.
+              Hello, I’m Adefela Fakorode. A passionate <br /> Full-Stack
+              Developer based in New York.
             </p>
-            {/* LinkedIN & Github */}
+
+            {/* LinkedIn & Github*/}
             <ul className="flex justify-center sm:justify-start mt-3">
               <li className="flex">
                 <a
@@ -40,6 +48,7 @@ const Home = () => {
                 >
                   <CiLinkedin size={35} />
                 </a>
+
                 <a
                   className="mx-4 py-1 text-white translate-colors duration-300 hover:text-primaryTextColor"
                   href="https://github.com/AdefelaFakorode"

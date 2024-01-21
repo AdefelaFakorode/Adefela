@@ -1,6 +1,7 @@
 import Home from './components/Home'
 import NavBar from './components/NavBar'
 import About from './components/About'
+import TechStack from './components/TechStack'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     <NavBar />
     <Home/>
     <About />
+    <TechStack />
     </div>
   )
 }

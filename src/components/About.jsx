@@ -40,7 +40,7 @@ const About = () => {
                 <img
                   src={BBP1}
                   alt="bbp1"
-                  className="w-[170px] h-[250px] xl:w-[300px] xl:h-[450px] md:w-[250px] md:h-[370px] rounded-[30px]"
+                  className="w-[170px] h-[250px] xl:w-[300px] xl:h-[450px] md:w-[250px] md:h-[370px]  rounded-[30px]"
                 />
               </div>
               <div>

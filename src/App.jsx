@@ -1,7 +1,7 @@
 import Home from './components/Home'
 import NavBar from './components/NavBar'
 import About from './components/About'
-import TechStack from './components/TechStack'
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
     <NavBar />
     <Home/>
     <About />
-    <TechStack />
+    <Skills />
     </div>
   )
 }

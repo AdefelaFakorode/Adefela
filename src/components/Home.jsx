@@ -1,22 +1,14 @@
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiTailwindcss } from "react-icons/si";
-import { FaBootstrap } from "react-icons/fa";
 import PP from "../assets/PP.jpg";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-secondary">
+    <div name="home" className="min-w-full min-h-screen bg-secondary">
       {/* Container */}
-      <div className="max-w-full px-11 flex flex-col justify-center h-full">
+      <div className="max-w-full px-11 flex flex-col justify-center h-full xl:pb-[60px]">
         {/* Flex Container for Text and Image */}
-        <div className="flex flex-col sm:flex-row items-center">
+        <div className="flex flex-col sm:flex-row items-center mt-[130px]">
           {/* Image */}
           <img
             src={PP}

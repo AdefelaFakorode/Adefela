@@ -3,7 +3,7 @@ import BBP2 from "../assets/BBP2.jpg";
 
 const About = () => {
   return (
-    <div name="about" className=" w-full h-screen  bg-primary">
+    <div name="about" className=" min-w-full min-h-screen  bg-primary">
       <div className="xl:pt-[110px]  pt-[100px]">
         <div className="xl:flex md:flex xl:flex-row-reverse md:flex-row-reverse justify-center ">
           {/*About-text*/}
@@ -14,8 +14,8 @@ const About = () => {
 
             {/*Card*/}
             <div className="flex justify-center">
-              <div className="w-[410px] h-[250px] xl:w-[640px] xl:h-[270px] md:w-[600px] md:h-[250px] rounded-[40px] xl:rounded-[40px] bg-secondary flex items-center">
-                <p className="my-8 mx-[14px] text-white xl:text-[17px] md:text-[17px] text-[14px] text-center">
+              <div className="w-[350px] h-[550px] xl:w-[640px] xl:h-[270px] md:w-[600px] md:h-[250px] rounded-[40px] xl:rounded-[40px] sm:w-[500px] bg-secondary flex items-center">
+                <p className="my-8 mx-[14px] text-white xl:text-[17px] md:text-[17px] text-[20px] text-center">
                   Currently, I'm an undergraduate student-athlete at CUNY
                   College of Staten Island, majoring in Computer Science.
                   <br />
@@ -35,7 +35,7 @@ const About = () => {
 
           {/*Images*/}
           <div className="flex-auto center">
-            <div className="flex justify-center mt-10 space-x-6">
+            <div className="flex justify-center pt-10 pb-10 space-x-6">
               <div>
                 <img
                   src={BBP1}

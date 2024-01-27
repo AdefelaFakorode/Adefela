@@ -1,16 +1,14 @@
 import React from "react";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
 import { SiTailwindcss } from "react-icons/si";
-import { FaBootstrap } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 function Skills() {
   // Skills
-  const frontEndS = [
+  const frontEnd = [
     {
       title: "JavaScript",
       icon: <IoLogoJavascript size={50} />,
@@ -28,49 +26,63 @@ function Skills() {
   const backEnd = [
     {
       title: "Node.JS",
-      icon: <i className="devicon-nodejs-plain colored text-3xl"></i>,
+      icon: <FaNodeJs size={50} />,
     },
     {
       title: "Express.JS",
-      icon: <i className="devicon-express-original colored text-3xl"></i>,
+      icon: <SiExpress size={50} />,
     },
     {
       title: "PostgreSQL",
-      icon: <i className="devicon-postgresql-plain colored text-3xl"></i>,
+      icon: <BiLogoPostgresql size={50} />,
     },
   ];
 
   return (
     <div
       name="skill"
-      className="flex w-full flex-col items-center justify-center bg-secondary"
+      className="flex flex-col items-center justify-center bg-secondary"
     >
-      {/*Tech Stack*/}
-      <div className="mt-10">
+      {/* Tech Stack */}
+      <div className="mt-[120px]">
         <h1 className="text-5xl text-primaryTextColor font-bold">Tech Stack</h1>
       </div>
 
-      {/*Boxes*/}
-      <div className="mt-9 space-y-5">
-        {/*Front-End Skills*/}
-        <div className="w-[350px] h-[450px] bg-primary flex flex-col justify-evenly">
-          <h1 className="text-mainTextColor">Front-End</h1>
+      {/* Boxes */}
+      <div className="mt-9 space-y-5 flex flex-col items-center">
+        {/* Front-End Skills */}
+        <div className="w-[350px] h-[450px] bg-primary flex flex-col items-center justify-evenly">
+          <h1 className="text-white text-4xl font-bold mb-5">Front-End</h1>
           <ul>
-            {frontEndS.map((skill, index) => {
+            {frontEnd.map((skill) => {
               return (
-                <li key={index}>
-                <div className="text-white translate-colors duration-300 hover:text-primaryTextColor">
-                  {skill.icon}
-                </div>
-                <span className="text-xl text-white">{skill.title}</span>
-              </li>
+                <li key={skill.title} className="flex items-center mb-3">
+                  <div className="text-white translate-colors duration-300 hover:text-primaryTextColor">
+                    {skill.icon}
+                  </div>
+                  <span className="text-xl text-white ml-2">{skill.title}</span>
+                </li>
               );
             })}
           </ul>
         </div>
 
-        {/*Back-End Skills*/}
-        <div className="w-[350px] h-[450px] bg-primary"></div>
+        {/* Back-End Skills */}
+        <div className="w-[350px] h-[450px] bg-primary flex flex-col items-center justify-evenly">
+          <h1 className="text-white text-4xl font-bold mb-5">Back-End</h1>
+          <ul>
+            {backEnd.map((skill, index) => {
+              return (
+                <li key={index} className="flex items-center mb-3">
+                  <div className="text-white translate-colors duration-300 hover:text-primaryTextColor">
+                    {skill.icon}
+                  </div>
+                  <span className="text-xl text-white ml-2">{skill.title}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     </div>
   );

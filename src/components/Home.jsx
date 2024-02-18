@@ -1,6 +1,7 @@
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
-import PP from "../assets/PP.jpg";
+import PP2 from "../assets/PP2.jpg";
+import PP3 from "../assets/PP3.jpg";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
         <div className="flex flex-col sm:flex-row items-center mt-[130px]">
           {/* Image */}
           <img
-            src={PP}
+            src={PP3}
             alt="My Image"
             className="w-full sm:max-w-[1000px] sm:mt-20 mt-[100px] mb-10 sm:mb-0 rounded-full sm:mr-10 sm:order-1 lg:max-w-[500px] xl:max-w-[600px] sm:ml-auto "
           />
@@ -24,7 +25,7 @@ const Home = () => {
               Full-Stack Developer
             </h2>
             {/* Intro */}
-            <p className="text-2xl xl:text-2xl text-mainTextColor sm:text-left">
+            <p className="text-2xl xl:text-2xl 2xl: text-mainTextColor sm:text-left">
               Hello, I’m Adefela Fakorode. A passionate <br /> Full-Stack
               Developer based in New York.
             </p>

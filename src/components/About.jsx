@@ -66,7 +66,7 @@ function NewAbout() {
                 <img
                   src={BBP2}
                   alt="bbp2"
-                  className="w-[170px] h-[250px] rounded-[30px] mt-[110px] lg:w-[0px] lg:h-[0px] xl:w-[290px] xl:h-[410px]
+                  className="w-[170px] h-[250px] rounded-[30px] mt-[110px] lg:w-[0px] lg:h-[0px] xl:w-[290px] xl:h-[440px]
                   md:w-[0px] md:h-[0px]  
                   "
                   style={navbarStyle}

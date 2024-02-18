@@ -1,37 +1,45 @@
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
-import PP2 from "../assets/PP2.jpg";
 import PP3 from "../assets/PP3.jpg";
 
-const Home = () => {
+export default function NewHome() {
+  const navbarStyle = {
+    boxShadow: "0px 4px 6px rgba(0, 0, 0, .3)",
+  };
+
   return (
-    <div name="home" className="min-w-full min-h-screen bg-secondary">
-      {/* Container */}
-      <div className="max-w-full px-11 flex flex-col justify-center h-full xl:pb-[60px]">
-        {/* Flex Container for Text and Image */}
-        <div className="flex flex-col sm:flex-row items-center mt-[130px]">
-          {/* Image */}
+    <section className="min-h-screen bg-secondary" id="home">
+      <div className="container mx-auto flex flex-col items-center justify-center">
+        <div className="lg:flex-row-reverse flex flex-col justify-center items-center lg:text-left text-center pt-[160px]">
+          {/*Image*/}
           <img
             src={PP3}
-            alt="My Image"
-            className="w-full sm:max-w-[1000px] sm:mt-20 mt-[100px] mb-10 sm:mb-0 rounded-full sm:mr-10 sm:order-1 lg:max-w-[500px] xl:max-w-[600px] sm:ml-auto "
+            alt="PP"
+            className="rounded-full w-[370px] md:w-[470px] lg:w-[500px] 2xl:w-[700px]"
+            style={navbarStyle}
           />
-          {/* Text */}
-          <div className="text-center sm:text-left sm:ml-auto sm:mt-20 ">
-            <h1 className="md:text-7xl text-4xl xl:text-7xl sm:mb-2 text-primaryTextColor font-bold">
-              Adefela Fakorode
-            </h1>
-            <h2 className="md:text-5xl   text-2xl xl:text-5xl sm:mb-2 text-primaryTextColor font-bold">
-              Full-Stack Developer
-            </h2>
-            {/* Intro */}
-            <p className="text-2xl xl:text-2xl 2xl: text-mainTextColor sm:text-left">
-              Hello, I’m Adefela Fakorode. A passionate <br /> Full-Stack
-              Developer based in New York.
-            </p>
 
-            {/* LinkedIn & Github*/}
-            <ul className="flex justify-center sm:justify-start mt-3">
+          <div className="md:flex-col lg:mr-[100px]">
+            {/*Text*/}
+            <div className="space-y-[-10px] ">
+              <h1 className="text-[40px] md:text-[50px] xl:text-[60px] lg:text-[50px] 2xl:text-[80px] text-primaryTextColor font-bold">
+                Adefela Fakorode
+              </h1>
+              <h2 className="text-[30px] md:text-[40px] lg:text-[35px] xl:text-[40px] 2xl:text-[50px] text-primaryTextColor font-bold">
+                Full-Stack Developer
+              </h2>
+            </div>
+            {/*Intro*/}
+            <div className="py-2">
+              <p className="text-[22px] md:text-[29px] lg:text-[20px] xl:text-[20px] 2xl:text-[25px] text-white ">
+                Hello, I’m Adefela Fakorode.
+                <br /> A passionate Full-Stack Developer
+                <br />
+                based in New York.
+              </p>
+            </div>
+            {/*LinkedIN & Github*/}
+            <ul className="flex justify-center mt-3 lg:justify-start">
               <li className="flex">
                 <a
                   className="text-white translate-colors duration-300 hover:text-primaryTextColor"
@@ -43,20 +51,18 @@ const Home = () => {
                 </a>
 
                 <a
-                  className="mx-4 py-1 text-white translate-colors duration-300 hover:text-primaryTextColor"
+                  className="mx-4 text-white translate-colors duration-300 hover:text-primaryTextColor"
                   href="https://github.com/AdefelaFakorode"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FiGithub size={27} />
+                  <FiGithub size={35} />
                 </a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
-};
-
-export default Home;
+}

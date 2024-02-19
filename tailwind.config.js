@@ -18,7 +18,7 @@ export default {
         'bHoverColor': '#ac48cf',
         'primary': '#041328',
         'secondary': '#020E1F',
-        'mainTextColor': '#D6D6D6'
+        'mainTextColor': '#8892b0'
       },
       fontFamily: {
         sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],

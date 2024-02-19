@@ -44,7 +44,7 @@ function Skills() {
     >
       {/* Tech Stack */}
       <div className="mt-[120px]">
-        <h1 className="text-[80px] text-primaryTextColor font-bold">
+        <h1 className="text-[60px] lg:text-[60px] 2xl:text-[80px] md:text-[50px] text-primaryTextColor font-bold">
           Tech Stack
         </h1>
       </div>

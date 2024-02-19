@@ -13,7 +13,7 @@ export default function About() {
     >
       <div className="container mx-auto">
         {/*Title*/}
-        <div className="text-primaryTextColor flex justify-center items-center lg:my-auto text-[80px] font-bold  mb-[20px] pt-[100px] xl:pt-[40px]">
+        <div className="text-primaryTextColor flex justify-center items-center lg:my-auto md:text-[50px] text-[60px] lg:text-[60px] 2xl:text-[80px] font-bold  mb-[20px] pt-[100px] xl:pt-[40px]">
           <h1>About</h1>
         </div>
         <div className="flex flex-col justify-center items-center xl:flex-row-reverse">

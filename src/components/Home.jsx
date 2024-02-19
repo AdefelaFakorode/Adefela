@@ -31,7 +31,7 @@ export default function Home() {
             </div>
             {/*Intro*/}
             <div className="py-2">
-              <p className="text-[22px] md:text-[29px] lg:text-[20px] xl:text-[20px] 2xl:text-[25px] text-white ">
+              <p className="text-[22px] md:text-[29px] lg:text-[20px] xl:text-[20px] 2xl:text-[25px] text-white">
                 Hello, I’m Adefela Fakorode.
                 <br /> A passionate Full-Stack Developer
                 <br />

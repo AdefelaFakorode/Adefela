@@ -1,19 +1,19 @@
 import BBP1 from "../assets/BBP1.jpg";
 import BBP2 from "../assets/BBP2.jpg";
 
-function NewAbout() {
+export default function About() {
   const navbarStyle = {
     boxShadow: "0px 4px 6px rgba(0, 0, 0, .3)",
   };
 
   return (
     <section
-      className="section xl:min-h-[48rem] 2xl:xl:min-h-[55rem] bg-primary"
       id="about"
+      className="section xl:min-h-[48rem] 2xl:xl:min-h-[55rem] bg-primary"
     >
       <div className="container mx-auto">
         {/*Title*/}
-        <div className="text-primaryTextColor flex justify-center items-center lg:my-auto text-[50px] 2xl:text-[80px] font-bold  mb-[20px] pt-[100px] xl:pt-[40px]">
+        <div className="text-primaryTextColor flex justify-center items-center lg:my-auto text-[80px] font-bold  mb-[20px] pt-[100px] xl:pt-[40px]">
           <h1>About</h1>
         </div>
         <div className="flex flex-col justify-center items-center xl:flex-row-reverse">
@@ -32,7 +32,7 @@ function NewAbout() {
               Currently, I'm an undergraduate student-athlete at <br />{" "}
               <a
                 href="https://www.csi.cuny.edu/"
-                className="font-bold text-primaryTextColor"
+                className="font-bold text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor"
               >
                 CUNY College of Staten Island
               </a>
@@ -79,5 +79,3 @@ function NewAbout() {
     </section>
   );
 }
-
-export default NewAbout;

@@ -8,6 +8,5 @@
 <p align="center">
   Under construction.
 </p>
-
-<img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src=">![sample](https://github.com/AdefelaFakorode/Adefela/assets/102834064/1b360d41-bef4-4442-86ee-9bcbd498c2b1)"
+(https://github.com/AdefelaFakorode/Adefela/assets/102834064/1b360d41-bef4-4442-86ee-9bcbd498c2b1)"
 

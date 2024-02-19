@@ -9,4 +9,5 @@
   Under construction.
 </p>
 
-<img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://github.com/AdefelaFakorode/Adefela/assets/102834064/31a25de2-2b5f-4e61-b0dc-55818e003293">
+<img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://github.com/AdefelaFakorode/Adefela/assets/102834064/b61202bc-8cb7-4f20-ac9f-901081301765
+">

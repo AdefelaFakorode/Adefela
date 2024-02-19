@@ -1,4 +1,3 @@
-import React from "react";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
@@ -39,20 +38,22 @@ function Skills() {
   ];
 
   return (
-    <div
-      name="skill"
-      className="flex flex-col items-center justify-center bg-secondary"
+    <section
+      id="skill"
+      className="flex flex-col items-center justify-center bg-secondary lg:min-h-screen mx-auto"
     >
       {/* Tech Stack */}
       <div className="mt-[120px]">
-        <h1 className="text-5xl text-primaryTextColor font-bold">Tech Stack</h1>
+        <h1 className="text-[80px] text-primaryTextColor font-bold">
+          Tech Stack
+        </h1>
       </div>
 
       {/* Boxes */}
-      <div className="mt-9 space-y-5 flex flex-col items-center">
+      <div className="mt-9 space-y-5 lg:space-y-0 flex flex-col items-center lg:flex-row lg:space-x-10 mb-[50px] 2xl:mb-[80px] ">
         {/* Front-End Skills */}
         <div className="w-[350px] h-[450px] bg-primary flex flex-col items-center justify-evenly">
-          <h1 className="text-white text-4xl font-bold mb-5">Front-End</h1>
+          <h1 className="text-white text-4xl font-bold mb-5 ">Front-End</h1>
           <ul>
             {frontEnd.map((skill) => {
               return (
@@ -84,7 +85,7 @@ function Skills() {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

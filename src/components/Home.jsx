@@ -2,13 +2,13 @@ import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
 import PP3 from "../assets/PP3.jpg";
 
-export default function NewHome() {
+export default function Home() {
   const navbarStyle = {
     boxShadow: "0px 4px 6px rgba(0, 0, 0, .3)",
   };
 
   return (
-    <section className="min-h-screen bg-secondary" id="home">
+    <section id="home" className="min-h-screen bg-secondary">
       <div className="container mx-auto flex flex-col items-center justify-center">
         <div className="lg:flex-row-reverse flex flex-col justify-center items-center lg:text-left text-center pt-[160px]">
           {/*Image*/}

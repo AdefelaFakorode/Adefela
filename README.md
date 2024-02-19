@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="https://github.com/AdefelaFakorode/Adefela/assets/102834064/9ef9e370-c1d9-4d93-84df-3457a5ddd1da"/>
-
+  <img src="https://github.com/AdefelaFakorode/Adefela/assets/102834064/9ef9e370-c1d9-4d93-84df-3457a5ddd1da" width="50" height="50"/>
 </p>
 <h1 align="center">
   adefela.com - v1

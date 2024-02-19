@@ -8,5 +8,4 @@
 <p align="center">
   Under construction.
 </p>
-(https://github.com/AdefelaFakorode/Adefela/assets/102834064/1b360d41-bef4-4442-86ee-9bcbd498c2b1)"
-
+<img src= "https://github.com/AdefelaFakorode/Adefela/assets/102834064/8bd410f1-422d-4558-85a1-d95c956822e8"/>

@@ -42,7 +42,7 @@ function Skills() {
       id="skill"
       className="flex flex-col items-center justify-center bg-secondary lg:min-h-screen mx-auto"
     >
-      {/* Tech Stack */}
+      {/* Title */}
       <div className="mt-[120px]">
         <h1 className="text-[60px] lg:text-[60px] 2xl:text-[80px] md:text-[50px] text-primaryTextColor font-bold">
           Tech Stack

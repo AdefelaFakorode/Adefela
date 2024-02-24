@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';
+import {Link} from 'react-scroll'
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -15,10 +16,46 @@ const NavBar = () => {
       <div className="hidden sm:flex ">
         {/* Menu */}
         <ul className="sm:flex hidden">
-          <li className="text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">Home</li>
-          <li className="text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">About</li>
-          <li className="text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">Project</li>
-          <li className="text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">Contact</li>
+          <li className="text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">
+          <Link 
+      activeClass="active" 
+      to="home" 
+      smooth={true} 
+      duration={500} 
+    >
+      Home
+    </Link>
+          </li>
+          <li className="text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">
+          <Link 
+      activeClass="active" 
+      to="about" 
+      smooth={true} 
+      duration={500} 
+    >
+      About
+    </Link>
+          </li>
+          <li className="text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">
+          <Link 
+      activeClass="active" 
+      to="skills" 
+      smooth={true} 
+      duration={500} 
+    >
+      Skills
+    </Link>
+          </li>
+          <li className="text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">
+          <Link 
+      activeClass="active" 
+      to="projects" 
+      smooth={true} 
+      duration={500} 
+    >
+      Projects
+    </Link>
+          </li>
         </ul>
       </div>
 
@@ -29,10 +66,50 @@ const NavBar = () => {
 
       {/* Mobile Menu */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-primary flex flex-col justify-center items-center '} style={navbarStyle}>
-        <li className="py-6 text-4xl text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">Home</li>
-        <li className="py-6 text-4xl text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">About</li>
-        <li className="py-6 text-4xl text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">Project</li>
-        <li className="py-6 text-4xl text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">Contact</li>
+        <li className="py-6 text-4xl text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">
+        <Link 
+        onClick={handleClick} 
+      activeClass="active" 
+      to="home" 
+      smooth={true} 
+      duration={500} 
+    >
+      Home
+    </Link>
+        </li>
+        <li className="py-6 text-4xl text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">
+        <Link 
+        onClick={handleClick}
+      activeClass="active" 
+      to="about" 
+      smooth={true} 
+      duration={500} 
+    >
+      About
+    </Link>
+        </li>
+        <li className="py-6 text-4xl text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">
+        <Link 
+        onClick={handleClick}
+      activeClass="active" 
+      to="skills" 
+      smooth={true} 
+      duration={500} 
+    >
+      Skills
+    </Link>
+        </li>
+        <li className="py-6 text-4xl text-primaryTextColor translate-colors duration-300 hover:text-bHoverColor">
+        <Link 
+        onClick={handleClick}
+      activeClass="active" 
+      to="projects" 
+      smooth={true} 
+      duration={500} 
+    >
+      Projects
+    </Link>
+        </li>
       </ul>
     </div>
   );

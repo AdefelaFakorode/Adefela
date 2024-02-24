@@ -1,5 +1,6 @@
 import BBP1 from "../assets/BBP1.jpg";
 import BBP2 from "../assets/BBP2.jpg";
+import Fade from "react-reveal/Fade";
 
 export default function About() {
   const navbarStyle = {
@@ -9,11 +10,13 @@ export default function About() {
   return (
     <section
       id="about"
-      className="section xl:min-h-[48rem] 2xl:xl:min-h-[55rem] bg-primary"
+      className="section xl:min-h-screen 2xl:xl:min-h-screen bg-primary"
     >
       <div className="container mx-auto">
+        <Fade bottom distance='20%' duration ={1500}>
+          
         {/*Title*/}
-        <div className="text-primaryTextColor flex justify-center items-center lg:my-auto md:text-[50px] text-[60px] lg:text-[60px] 2xl:text-[80px] font-bold  mb-[20px] pt-[100px] xl:pt-[40px]">
+        <div className="text-primaryTextColor flex justify-center items-center lg:my-auto md:text-[50px] text-[60px] lg:text-[60px] 2xl:text-[80px] font-bold mb-[20px] pt-[100px] xl:pt-[90px]">
           <h1>About</h1>
         </div>
         <div className="flex flex-col justify-center items-center xl:flex-row-reverse">
@@ -28,6 +31,7 @@ export default function About() {
             style={navbarStyle}
           >
             {/*Text*/}
+            <Fade bottom distance="20%" duration={800}>
             <p className="m-[20px] lg:m-[20px] xl:m-[45px]">
               Currently, I'm an undergraduate student-athlete at <br />{" "}
               <a
@@ -48,6 +52,7 @@ export default function About() {
               Outside of coding, I love to play video games with friends, <br />
               binge-watch anime and read manga.
             </p>
+            </Fade>
           </div>
           {/*Images*/}
           <div className="flex-auto center xl:mr-[70px] 2xl:mr-[110px]  ">
@@ -75,6 +80,7 @@ export default function About() {
             </div>
           </div>
         </div>
+        </Fade>
       </div>
     </section>
   );

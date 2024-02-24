@@ -22,7 +22,7 @@ export default function About() {
             className="
           w-[410px] h-[670px] bg-secondary rounded-[60px] xl:h-[350px] xl:w-[600px]
           text-white text-[24px] xl:text-[17px] 2xl:h-[450px] 2xl:w-[700px] 2xl:text-[22px]
-          text-center
+          text-center 
           
           "
             style={navbarStyle}
@@ -50,8 +50,8 @@ export default function About() {
             </p>
           </div>
           {/*Images*/}
-          <div className="flex-auto center xl:mr-[70px] 2xl:mr-[110px]">
-            <div className="flex justify-center pt-10 lg:pt-[0px] xl:pt-[0px] pb-10 space-x-6">
+          <div className="flex-auto center xl:mr-[70px] 2xl:mr-[110px]  ">
+            <div className="flex justify-center pt-10 lg:pt-[0px] xl:pt-[0px] pb-10 space-x-6 ">
               <div>
                 <img
                   src={BBP1}

@@ -13,9 +13,9 @@ export default {
         xl: "1280px",
       },
       colors: {
-        'primaryTextColor': '#D764FF',
-        'bColor': '#3D0053',
-        'bHoverColor': '#ac48cf',
+        'primaryTextColor': '#d354ff',
+        'bColor': '#ad00e9',
+        'bHoverColor': '#860faf',
         'primary': '#041328',
         'secondary': '#020E1F',
         'mainTextColor': '#8892b0'

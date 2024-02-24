@@ -1,6 +1,6 @@
-import Aurora from "../assets/projectPics/Aurora.png";
 import Card from "./Card";
-
+import Aurora from "../assets/Aurora.png";
+import NFT from "../assets/NFT.jpg";
 function Projects() {
   const listOfProject = [
     {
@@ -10,28 +10,30 @@ function Projects() {
       link: "https://github.com/AdefelaFakorode/Aurora",
       image: Aurora,
       demo: "http://ec2-3-210-110-55.compute-1.amazonaws.com/",
-      tech: [],
+      tech: null,
     },
     {
       title: "NFT-World",
       description:
-        "E-Commerce platform specializing in the sale of NFT Collections, showcasing a display of new and featured NFTs",
+        "E-Commerce platform specializing in the sale of NFT Collections, showcasing new and featured NFTs, while educating users about the concept and potential of NFTs.",
       link: "https://github.com/AdefelaFakorode/NFTsWorld-Website",
-      image: Aurora,
-      demo: "...",
-      tech: [],
+      image: NFT,
+      demo: null,
+      tech: null,
     },
   ];
 
   return (
-    <section id="projects" className=" min-h-[911px] bg-primary">
-      <div className="font-bold pt-[100px] mb-[50px] text-[60px] text-primaryTextColor flex justify-center text-center">
+    <section id="projects" className=" min-h-[910px] bg-primary">
+      <div className="font-bold pt-[90px] text-[60px] text-primaryTextColor flex justify-center text-center">
         <h1>Projects</h1>
       </div>
+
       <div className="container mx-auto">
         {listOfProject.map((project, index) => (
           <Card
             key={index}
+            image={project.image}
             title={project.title}
             description={project.description}
             link={project.link}

@@ -6,7 +6,8 @@ const NavBar = () => {
   const handleClick = () => setNav(!nav);
 
   const navbarStyle = {
-    boxShadow: "0px 4px 6px rgba(0, 0, 0, .3)"
+    boxShadow: "0px 4px 6px rgba(0, 0, 0, .3)",
+    zIndex: 1
   };
 
   return (

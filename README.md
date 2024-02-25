@@ -5,6 +5,6 @@
   <a href="https://adefela.com">adefela.com - v1</a>
 </h1>
 <p align="center">
-  The first iteration of <a href="https://adefela.com">adefela.com</a> was built with React.js leveraging Talwind.css.
+  The first iteration of <a href="https://adefela.com">adefela.com</a> was built with React.js leveraging Tailwind.css.
 </p>
 <img src="https://github.com/AdefelaFakorode/Adefela/assets/102834064/8bd410f1-422d-4558-85a1-d95c956822e8"/>

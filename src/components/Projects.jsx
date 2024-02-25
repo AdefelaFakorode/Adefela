@@ -1,7 +1,7 @@
 import Card from "./Card";
 import Aurora from "../assets/Aurora.png";
 import NFT from "../assets/NFT.jpg";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 function Projects() {
   const listOfProject = [
@@ -27,11 +27,10 @@ function Projects() {
 
   return (
     <section id="projects" className=" min-h-[910px] bg-primary">
-      <Fade bottom distance="20%" duration={1500}>
+      <Fade direction="up" delay={-600} duration={1500} triggerOnce>
         <div className="font-bold pt-[90px] text-[60px] text-primaryTextColor flex justify-center text-center">
           <h1>Projects</h1>
         </div>
-
         <div className="container mx-auto">
           {listOfProject.map((project, index) => (
             <Card

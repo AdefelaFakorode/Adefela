@@ -4,7 +4,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 function Skills() {
   // Skills
@@ -43,7 +43,7 @@ function Skills() {
       id="skills"
       className="flex flex-col items-center justify-center bg-secondary lg:min-h-screen mx-auto "
     >
-      <Fade bottom distance="20%" duration={800}>
+      <Fade direction="up" delay={-500} duration={1500} triggerOnce>
         {/* Title */}
         <div className="mt-[120px]">
           <h1 className="text-[60px] lg:text-[60px] 2xl:text-[80px] md:text-[50px] text-primaryTextColor font-bold">

@@ -1,4 +1,4 @@
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 function Card({ title, description, link, demo, image }) {
   return (
@@ -17,40 +17,39 @@ function Card({ title, description, link, demo, image }) {
                 />
               )}
             </div>
- <Fade bottom distance="20%" duration={1000}>
- <div className="flex flex-col justify-center lg:pr-4">
+
+            <div className="flex flex-col justify-center lg:pr-4">
               {/* Title */}
               <div className="font-bold text-primaryTextColor text-[30px] lg:mt-[0px] mt-[30px]">
                 <h1>{title}</h1>
               </div>
+
               {/* Description */}
               <div className="mt-[10px] text-[20px]">
                 <p>{description}</p>
               </div>
 
               <div className="flex space-x-[15px] justify-center items-center mt-[20px]">
-  <a
-    href={link}
-    className="bg-bColor hover:bg-bHoverColor translate-colors duration-300 text-white font-bold py-1 px-4 rounded hover:animate-bounce"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Code
-  </a>
-  {demo && (
-    <a
-      href={demo}
-      className="bg-bColor hover:bg-bHoverColor translate-colors duration-300 text-white font-bold py-1 px-4 rounded hover:animate-bounce"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Demo
-    </a>
-  )}
-</div>
-
+                <a
+                  href={link}
+                  className="bg-bColor hover:bg-bHoverColor translate-colors duration-300 text-white font-bold py-1 px-4 rounded hover:animate-bounce"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Code
+                </a>
+                {demo && (
+                  <a
+                    href={demo}
+                    className="bg-bColor hover:bg-bHoverColor translate-colors duration-300 text-white font-bold py-1 px-4 rounded hover:animate-bounce"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                  </a>
+                )}
+              </div>
             </div>
- </Fade>
           </div>
         </div>
       </div>

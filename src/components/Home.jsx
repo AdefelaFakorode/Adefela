@@ -1,7 +1,7 @@
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
 import PP3 from "../assets/PP3.jpg";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 export default function Home() {
   const navbarStyle = {
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <section id="home" className="min-h-screen bg-secondary">
       <div className="container mx-auto flex flex-col items-center justify-center">
-        <Fade bottom distance="20%" duration={1500}>
+        <Fade direction="up" delay={-700} duration={1500} triggerOnce>
           <div className="lg:flex-row-reverse flex flex-col justify-center items-center lg:text-left text-center pt-[160px]">
             {/*Image*/}
             <img
@@ -33,14 +33,12 @@ export default function Home() {
               </div>
               {/*Intro*/}
               <div className="py-2">
-                <Fade bottom distance="20%" duration={1000}>
-                  <p className="text-[22px] md:text-[29px] lg:text-[20px] xl:text-[20px] 2xl:text-[25px] text-white">
-                    Hello, I’m Adefela Fakorode.
-                    <br /> A passionate Full-Stack Developer
-                    <br />
-                    based in New York.
-                  </p>
-                </Fade>
+                <p className="text-[22px] md:text-[29px] lg:text-[20px] xl:text-[20px] 2xl:text-[25px] text-white">
+                  Hello, I’m Adefela Fakorode.
+                  <br /> A passionate Full-Stack Developer
+                  <br />
+                  based in New York.
+                </p>
               </div>
               {/*LinkedIN & Github*/}
               <ul className="flex justify-center mt-3 lg:justify-start">

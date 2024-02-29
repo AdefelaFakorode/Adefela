@@ -25,11 +25,11 @@ function Skills() {
 
   const backEnd = [
     {
-      title: "Node.JS",
+      title: "Node.js",
       icon: <FaNodeJs size={50} />,
     },
     {
-      title: "Express.JS",
+      title: "Express.js",
       icon: <SiExpress size={50} />,
     },
     {

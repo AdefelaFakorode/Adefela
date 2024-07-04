@@ -32,7 +32,7 @@ export default function About() {
               {/*Text*/}
               <Fade direction="up" delay={-800} duration={1500} triggerOnce>
                 <p className="m-[20px] lg:m-[20px] xl:m-[45px]">
-                  Currently, I'm an undergraduate student-athlete at <br />{" "}
+                Currently, I'm an undergraduate student and former athlete at <br />{" "}
                   <a
                     href="https://www.csi.cuny.edu/"
                     target="_blank"
@@ -44,15 +44,12 @@ export default function About() {
                   , majoring in Computer Science.
                   <br />
                   <br />
-                  Deeply immersed in the world of Software Development, my
-                  passion lies in the exciting realms of full-stack development,
-                  intuitive UI/UX design, the marvels of artificial
-                  intelligence, and fascinating human-computer interactions.
+                  My passion lies in the exciting realms of UI/UX design and full-stack development. 
+                  Where I can incorporate problem-solving, creativity, and design into an application itself.
                   <br />
                   <br />
-                  Outside of coding, I love to play video games with friends,{" "}
+                  Outside of coding, I enjoy streaming games on Twitch with friends, binge-watching anime, and reading manga.{" "}
                   <br />
-                  binge-watch anime and read manga.
                 </p>
               </Fade>
             </div>

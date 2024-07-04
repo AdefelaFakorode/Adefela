@@ -1,10 +1,20 @@
 import Card from "./Card";
 import Aurora from "../assets/Aurora.png";
 import NFT from "../assets/NFT.jpg";
+import SimStock from "../assets/SimStock.png";
 import { Fade } from "react-awesome-reveal";
 
 function Projects() {
   const listOfProject = [
+    {
+      title: "SimStock-Exchange",
+      description:
+        "The Stock Simulation App is a platform designed to simplify stock trading for beginners by providing a risk-free, virtual trading environment.",
+      link: "https://github.com/jawadrada/SimStock-Exchange",
+      image: SimStock,
+      demo: null,
+      tech: null,
+    },
     {
       title: "Aurora",
       description:
@@ -22,7 +32,7 @@ function Projects() {
       image: NFT,
       demo: null,
       tech: null,
-    },
+    }
   ];
 
   return (
